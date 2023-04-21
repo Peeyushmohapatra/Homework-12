@@ -1,0 +1,27 @@
+.product {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 5rem;
+  overflow: auto;
+}
+
+.productDetails{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.productDetails img{
+    height: 60%;
+    width: 100%;
+}
